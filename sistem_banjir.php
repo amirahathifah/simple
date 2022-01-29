@@ -38,40 +38,63 @@
   </div>
 </nav>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+  <!-- <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+  </ol> -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img class="d-block w-100" height="383" src="image/banjir1.jpg" alt="First slide">
+        <img class="d-block w-50 m-auto" height="380" src="image/banjir_1.png" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
+          <!-- <button class="btn btn-danger btn-pill h3 font-weight-bolder">Berikan Sumbangan</button> -->
         </div>
     </div>
     <div class="carousel-item">
-        <img class="d-block w-100" height="383" src="image/banjir2.jpeg" alt="Second slide">
+        <img class="d-block w-50 m-auto" height="380" src="image/banjir_2.png" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
         </div>
     </div>
     <div class="carousel-item">
-        <img class="d-block w-100" height="383" src="image/banjir3.jpg" alt="Third slide">
+        <img class="d-block w-50 m-auto" height="380" src="image/banjir_3.png" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
         </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+    <i class="fas fa-chevron-circle-left icon-5x text-dark-50"></i>
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+    <i class="fas fa-chevron-circle-right icon-5x text-dark-50"></i>
     <span class="sr-only">Next</span>
   </a>
+</div>
+<div class="row px-40">
+  <div class="col-4">
+    <div class="card-body bg-danger text-white mr-3 rounded-lg">
+      <h6>KALKULATOR ZAKAT</h6>
+      <h3>Kira zakat</h3>
+      <p>Semua jenis pendapatan</p>
+      <button class="btn btn-white btn-hover-light h6">Kira zakat anda</button>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card-body bg-info text-white mr-3 rounded-lg">
+      <h6>BAYAR ZAKAT ONLINE</h6>
+      <h3>Bayar zakat</h3>
+      <p>Cepat mudah dan selamat</p>
+      <button class="btn btn-white btn-hover-light h6">Bayar zakat anda</button>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card-body bg-warning text-white rounded-lg">
+      <h6>AKAUN E-ZAKAT</h6>
+      <h3>Semak zakat</h3>
+      <p>Pembayaran dan Permohonan</p>
+      <button class="btn btn-white btn-hover-light h6">Semak akaun anda</button>
+    </div>
+  </div>
 </div>
